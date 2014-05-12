@@ -50,7 +50,10 @@ namespace Deck
 
 			}
 		}
-
+		public List<Card> GetDeck()
+		{
+			return _deck;
+		}
 
 		public struct Card
 		{
